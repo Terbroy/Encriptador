@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main class="main">
+        <img class="logo" src="./src/images/Top.svg" alt="alura">
+        <section class="main-info">
+        <textarea placeholder="Ingrese el texto aqui" type="text" id="input-main" class="info__text"></textarea>
+        <small class="main-info__recommendation"><span class="recommendation__expression">!</span>  Solo letras minúsculas y sin acentos</small>
+        <section class="main-info__buttons">
+            <button  class="buttons__btn">Encriptar</button>
+            <button  class="buttons__btn buttons__btn--border-blue">Desencriptar</button>
+        </section>
+    </section>
+    <section id="container-void" class="container">
+        <img src="./src/images/Muñeco.png" alt="">
+        <h2 class="container__title">Ningún mensaje fue encontrado</h2>
+        <p class="container__text">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </section>
+    <section id="container" class="container display-none">
+        <p id="output-message" class="container__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, dicta. Accusamus reprehenderit qui quibusdam deleniti, veritatis soluta neque ab mollitia, enim rerum sapiente cupiditate ad eaque nulla molestias ducimus doloribus.</p>
+        <button class=" buttons__btn buttons__btn--border-blue">Copiar</button>
+    </section>
+
+    </main>
+    <footer class="footer">
+        <span class="footer__author">@Diana Saavedra & Pepe</span>
+    </footer>
+    <script src="./src/main.js"></script>
+</body>
+</html>
